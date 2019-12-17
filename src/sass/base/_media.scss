@@ -1,0 +1,79 @@
+@media (max-width: 970px) {
+    .header {
+        justify-content: space-around;
+    }
+    .promo__wrapper {
+        padding: 15px;
+    }
+    .advantages__wrapper {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo{
+            &__logo{
+                width: 225px;
+            }
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        button {
+            width: 130px;
+            font-size: 11px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 33px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+        &__icons {
+            width: 400px;
+        }
+    }
+    .advantages {
+        h2 {
+            font-size: 25px;
+        }
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__descr {
+            display: block;
+            margin: 0 auto;
+        }
+        
+
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo{
+            width: 200px;
+        }
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            justify-content: center;
+            align-items: center;
+        }
+        &__header {
+            font-size: 28px;
+        }
+        &__subheader {
+            display: none;
+        }
+    }
+}
