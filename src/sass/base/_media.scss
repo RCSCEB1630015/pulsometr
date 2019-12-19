@@ -8,6 +8,16 @@
     .advantages__wrapper {
         justify-content: space-around;
     }
+    .title_left {
+        padding: 25px;
+    }
+    .consultation__descr {
+        margin-top: 40px;
+        padding: 25px;
+    }
+    .feed-form {
+        padding: 25px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -50,9 +60,8 @@
             display: block;
             margin: 0 auto;
         }
-        
-
     }
+    
 }
 
 @media (max-width: 575px) {
